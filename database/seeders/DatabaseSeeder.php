@@ -13,6 +13,7 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        $this->call(AdsTableSeeder::class);
+        $this->call(SimAdSeeder::class);
+        $this->call(OfferSeeder::class);
     }
 }
